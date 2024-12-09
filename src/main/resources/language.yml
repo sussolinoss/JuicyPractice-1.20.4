@@ -1,0 +1,56 @@
+error:
+  offline: "il bro è offline"
+  command: "comando sconosciuto..."
+
+spawn:
+  error: "Spawn not setted"
+  set: "spwn settato!"
+  tp: "teletrasportato allo spawn!"
+
+stats:
+  error: "Invalid value"
+  help: "Stats increment/set/reset player [DuelType/StatsType : amount]"
+  set: "Hai settato a {player} - {amount} ({type})"
+  clear: "Hai resettato le stats di {player} ({type})"
+  increment: "Hai incrementato a {player} - {amount} ({type})"
+
+#La farò appena terminati tutti gli eventi
+inventory: "Duels"
+
+duels:
+  scoreboard:
+     title: Duel - {duel}
+     lines:
+       - Enemy - {enemy}
+       - You - {you}
+       - ' '
+       - Time - {time}
+
+zones:
+  - "FFA-NethPot"
+  - "FFA-DiaPot"
+  - "FFA-SMP"
+  - "FFA-Sword"
+  - "FFA-CPvP"
+  - "FFA-TridentPvP"
+
+party:
+  help: "/party <create|join|leave|disband|invite> [player]"
+  join: "&bYou joined the party! &f({owner})"
+  create: "&b&lParty &acreated!"
+  disband: "&b&lParty &cdisbanded!"
+  invite: "&b&lParty &7sent the invite to &3{player}"
+  invited: "&b&lParty &7You received an invite from &f{sender}"
+  error:
+    party: "&cYou already have a party."
+    state: "&cYou can't join the party."
+    required: "&cYou need to be in a party."
+    permission: "&cYou don't have enough permissions."
+  leave: "&cYou left the party."
+  chat:
+    state: "&b&lParty &3chat: &f{state}"
+    format: "&b&lParty {player} - {message}"
+
+
+
+

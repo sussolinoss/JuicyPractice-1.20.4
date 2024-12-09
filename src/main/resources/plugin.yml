@@ -1,0 +1,32 @@
+name: JuicyPractice
+version: '${project.version}'
+main: dev.sussolino.juicypractice.Juicy
+api-version: '1.20'
+depend:
+  - JuicyAPI
+  - TAB
+commands:
+  duel:
+    description: /duel [enemy] [type]
+  duels:
+    description: /duels [setPos1/setPos2/setKit] [type]
+  party:
+    description: /party
+  stats:
+    description: /stats increment:set:clear player DuelType StatsType Amount
+  spawn:
+    description: /spawn, /spawn set
+  train:
+    description: /train totem/zombie
+  heal:
+    description: /heal [target] (optional)
+  feed:
+    description: /feed [target] (optional)
+  warp:
+    description: /warp set/delete/tp [name]
+  kit:
+    description: /kit save/load/delete [name]
+  rtp:
+    description: /rtp
+  rtpduel:
+    description: /rtpduel [negro]
